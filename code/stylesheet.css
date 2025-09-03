@@ -6,32 +6,32 @@
 
 @font-face {
     font-family: 'Neo Sans Pro Regular';
-    src: url("fonts/neosansproregular.OTF");
+    src: url("/fonts/359095696-neosansproregular.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Italic';
-    src: url("fonts/neosansproitalic.OTF");
+    src: url("/fonts/359095678-neosansproitalic.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Light';
-    src: url("fonts/neosansprolight.OTF");
+    src: url("/fonts/359095683-neosansprolight.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Light Italic';
-    src: url("fonts/neosansprolightit.OTF");
+    src: url("/fonts/359095684-neosansprolightit.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Medium';
-    src: url("fonts/neosanspromedium.OTF");
+    src: url("/fonts/359095689-neosanspromedium.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Medium Italic';
-    src: url("fonts/neosanspromedit.OTF");
+    src: url("/fonts/359095685-neosanspromedit.OTF");
 }
 
 @font-face {
@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: 'Neo Sans Pro Bold Italic';
-    src: url("/fonts/359095669-neosansprobold.OTF");
+    src: url("/fonts/359095674-neosansproboldit.OTF");
 
 }
 
@@ -52,16 +52,24 @@
 
 @font-face {
     font-family: 'Neo Sans Pro Black Italic';
-    src: url("fonts/neosansproblackit.OTF");
+    src: url("/fonts/359095666-neosansproblackit.OTF");
+}
+
+.main-bg {
+    background-image: url("/img/doodle.png");
 }
 
 .yellow-part {
-    background-color: rgb(206, 206, 67);
+    background-color: #f7de61;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px;
     letter-spacing: 2px;
+}
+
+.mob-img {
+    display: none;
 }
 
 .fa-tty {
@@ -94,7 +102,7 @@
 .father-son-content {
     font-family: 'Neo Sans Pro Bold';
     position: absolute;
-    color: blueviolet;
+    color: rgb(70, 3, 133);
     max-width: 650px;
     font-size: 60px;
     left: 2%;
@@ -102,9 +110,9 @@
 }
 
 .know-more {
-    background-color: rgb(206, 206, 67);
+    background-color: #f7de61;
     color: black;
-    font-size: 25px;
+    font-size: 95%;
     border-radius: 30px;
     font-weight: 300;
     height: 60px;
@@ -116,12 +124,6 @@
 
 }
 
-/* .background-section {
-    background-image: url("./img/3/DOODLE\ 2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .home-icon {
     display: block;
@@ -130,21 +132,22 @@
 }
 
 .admission-heading {
-    max-width: 650px;
+    max-width: 900px;
     text-align: center;
-    color: #60289c;
+    color: #682ba8;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 span {
-    color: #fee35f;
+    color: #f3da5f;
 
 }
 
 .gradient-box {
     margin: 0 auto;
-    background-image: linear-gradient(to right, #60289c, #fee35f);
+    background-image: linear-gradient(to right, #662aa7, #f3db60);
     height: 10px;
     width: 60px;
 
@@ -152,7 +155,7 @@ span {
 
 .admission-content {
     font-size: 25px;
-    width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
@@ -163,21 +166,25 @@ span {
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin: 0 auto;
+    max-width: 900px;
+
 }
 
 .box {
-    background-color: #fee35f;
-    padding: 10px;
-    width: 400px;
-    height: 100%;
+    background-color: #f7de61;
+    padding: 25px;
+    height: 230px;
+    font-family: 'Neo Sans Pro regular';
+
 }
 
 .box p {
     margin: 0 auto;
-    width: 50%;
+    max-width: 70%;
     text-align: center;
+    font-size: 20px;
 }
 
 .university-img,
@@ -185,8 +192,8 @@ span {
 .authentic-img,
 .honest-img {
     display: block;
-    margin: 0 auto;
-    width:15%;
+    margin: 3px auto 3px;
+
 }
 
 .register-button {
@@ -194,12 +201,160 @@ span {
     border-radius: 20px;
     margin: 30px auto;
     width: 430px;
-    background-color: #60289c;
-    color: #fee35f;
+    background-color: #592591;
+    color: #f1d858;
     border-radius: 20px;
     height: 85px;
- 
+
 }
+
+.wrap1 {
+    background-image: linear-gradient(white, #cca5f1);
+    padding: 2rem 0;
+}
+
+.title1 {
+    text-align: center;
+    color: #682da7;
+    margin: 0 auto 17px;
+
+}
+
+.text1 {
+    margin: 10px auto 17px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    max-width: 800px;
+    font-family: 'Neo Sans Pro Medium Italic';
+
+}
+
+.text2 {
+    margin: 0 auto 2rem;
+    color: blueviolet;
+    max-width: 800px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Neo Sans Pro regular';
+
+}
+
+
+
+.col1,
+.col2 {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Neo Sans Pro regular';
+
+}
+
+
+
+.side-boxs {
+    max-width: 1000px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.step-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.step-row-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.step-box-violet {
+    background-color: #dec1fc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.step-box-yellow {
+    background-color: #f1d752;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: right;
+
+
+}
+
+.heading3 {
+    color: #682da7;
+    padding: 2px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-right: 15px;
+    width: 100%;
+
+}
+
+.text3 {
+    padding-left: 30px;
+    padding-right: 15px;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.icon-box {
+    margin: 0 auto;
+    background-color: #682da7;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.icon-box img {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.info-content h3 {
+    text-align: center;
+}
+
+.info-text {
+    margin: auto;
+    color: #60289c;
+    max-width: 230px;
+    text-align: center;
+}
+
+
 
 
 @media (max-width:776px) {
@@ -207,10 +362,94 @@ span {
         background: none;
     }
 
-    .father-son {
-        background-image: url(/img/0/top-banner-mobile.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .mob-img {
+        display: block;
+        margin: 0 auto;
+        width: 99%;
     }
+
+    .father-son-content {
+        position: static;
+        text-align: center;
+        font-size: 30px;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .know-more {
+        display: block;
+        position: static;
+        margin: 0 auto;
+        width: 50%;
+        margin: 20px auto 20px;
+        font-size: 20px;
+    }
+
+    .four-cards {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .admission-heading {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .box {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 30%;
+        margin: 10px auto 10px;
+        display: block;
+    }
+
+    .admission-heading,
+    .admission-content {
+        width: 70%
+    }
+
+    .register-button {
+        width: 70%;
+    }
+
+    .col1,
+    .col2 {
+        justify-content: center;
+        display: grid;
+        gap: 20px;
+    }
+
+    .step-row,
+    .step-row-reverse {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .side-boxs {
+        margin: 0 auto;
+    }
+
+    .info-box {
+        flex-direction: column;
+    }
+
+    .text1,
+    .text2 {
+        width: 70%;
+    }
+
+    .img7,
+    .img8,
+    .img9,
+    .step-box-violet,
+    .step-box-yellow {
+        width: 90%;
+        text-align: center;
+    }
+
 }
