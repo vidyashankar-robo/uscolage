@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 @font-face {
@@ -57,6 +58,7 @@
 
 .main-bg {
     background-image: url("/img/doodle.png");
+    background-repeat: repeat;
 }
 
 .yellow-part {
@@ -66,6 +68,7 @@
     align-items: center;
     padding: 30px;
     letter-spacing: 2px;
+
 }
 
 .mob-img {
@@ -102,7 +105,7 @@
 .father-son-content {
     font-family: 'Neo Sans Pro Bold';
     position: absolute;
-    color: rgb(70, 3, 133);
+    color: rgb(92, 6, 173);
     max-width: 650px;
     font-size: 60px;
     left: 2%;
@@ -112,11 +115,10 @@
 .know-more {
     background-color: #f7de61;
     color: black;
-    font-size: 95%;
+    font-size: 20px;
     border-radius: 30px;
-    font-weight: 300;
-    height: 60px;
-    width: 15%;
+    font-weight: 900;
+    padding:15px 50px; 
     position: absolute;
     left: 2%;
     top: 52%;
@@ -132,12 +134,14 @@
 }
 
 .admission-heading {
-    max-width: 900px;
+    max-width: 1400px;
     text-align: center;
     color: #682ba8;
     margin: 0 auto;
     font-size: 50px;
     padding-bottom: 20px;
+        font-family: 'Neo Sans Pro ';
+
 }
 
 span {
@@ -154,37 +158,37 @@ span {
 }
 
 .admission-content {
-    font-size: 25px;
-    max-width: 900px;
+    font-size: 30px;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
 }
 
 .four-cards {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1300px;
+    flex-wrap: wrap;
 
 }
 
 .box {
-    background-color: #f7de61;
-    padding: 25px;
-    height: 230px;
+    background-color: #f7de61; 
+    padding:30px;
     font-family: 'Neo Sans Pro regular';
-
+    margin:24px;
+    height:250px;
 }
 
 .box p {
     margin: 0 auto;
-    max-width: 70%;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    max-width: 70%;
 }
 
 .university-img,
@@ -200,24 +204,29 @@ span {
     display: block;
     border-radius: 20px;
     margin: 30px auto;
-    width: 430px;
+    width: 600px;
     background-color: #592591;
     color: #f1d858;
     border-radius: 20px;
-    height: 85px;
-
+    height: 100px;
+    font-size: 22px;
+    font-weight: 300;
 }
 
 .wrap1 {
     background-image: linear-gradient(white, #cca5f1);
-    padding: 2rem 0;
+    padding: 30px 0;
+    
 }
 
 .title1 {
     text-align: center;
     color: #682da7;
     margin: 0 auto 17px;
-
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Neo Sans Pro ';
+    max-width: 650px;
 }
 
 .text1 {
@@ -225,15 +234,15 @@ span {
     text-align: center;
     font-size: 20px;
     color: black;
-    max-width: 800px;
+    max-width: 1400px;
     font-family: 'Neo Sans Pro Medium Italic';
 
 }
 
 .text2 {
-    margin: 0 auto 2rem;
+    margin: 0 auto 30px;
     color: blueviolet;
-    max-width: 800px;
+    max-width: 1400px;
     font-size: 15px;
     text-align: center;
     font-family: 'Neo Sans Pro regular';
@@ -244,10 +253,12 @@ span {
 
 .col1,
 .col2 {
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto 40px;
+    /* flex-wrap: wrap; */
+
 }
 
 .card1,
@@ -268,16 +279,18 @@ span {
 
 
 .side-boxs {
-    max-width: 1000px;
+    max-width: 1200px;
     padding-top: 30px;
     margin: 0 auto;
+    font-family: 'Neo Sans Pro regular';
+
 }
 
 .step-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 33px;
 }
 
 .step-row-reverse {
@@ -308,7 +321,6 @@ span {
     padding-bottom: 10px;
     font-size: 30px;
     padding-right: 15px;
-    width: 100%;
 
 }
 
@@ -316,16 +328,17 @@ span {
     padding-left: 30px;
     padding-right: 15px;
     font-size: 30px;
-    width: 100%;
 
 }
 
 .info-box {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
-    max-width: 1000px;
+    padding: 32px;
+    max-width: 1400px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 
@@ -340,11 +353,13 @@ span {
 .icon-box img {
     display: block;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .info-content h3 {
     text-align: center;
+    font-family: 'Neo Sans Pro regular';
+
 }
 
 .info-text {
@@ -352,10 +367,143 @@ span {
     color: #60289c;
     max-width: 230px;
     text-align: center;
+    font-size: larger;
+    font-family: 'Neo Sans Pro regular';
+
+}
+
+
+.college-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.college-box {
+    width: 280px;
+    height: 150px;
+    background-color: rgb(229, 205, 252);
+    /* height:300px; */
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.college-pic {
+    display: block;
+    margin: 30px auto 0;
+
+}
+
+
+.story-section {
+    padding: 45px;
+    background-image: linear-gradient(white, #cbaaee);
+    margin: 0 auto;
 }
 
 
 
+.story-box {
+    padding: 55px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.story-text {
+    color: #60289c;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Neo Sans Pro regular';
+
+}
+
+.story-writer {
+    display: block;
+    margin: 16px auto;
+    font-size: 25px;
+    color: black;
+}
+
+.college-box-mob img {
+    display: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;   
+
+}
+
+
+.form {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px grey;
+    padding: 20px;
+    align-self: center;
+    width: 50%;
+}
+.girl img{
+    width:90%;
+}
+
+
+input,
+textarea,
+select,
+option {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+
+}
+
+.note {
+    color: #7420ce;
+}
+
+.submit {
+    background-color: #f3d74c;
+    border-radius: 13px;
+    padding: 5px 25px;
+    letter-spacing: 3px;
+}
+
+.points {
+    margin: 17px 0;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer:after {
+    content: "";
+    position: absolute;
+    background-color: #6c16c9;
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+
+.pc {
+    display: none;
+}
 
 @media (max-width:776px) {
     .father-son {
@@ -386,8 +534,7 @@ span {
     }
 
     .four-cards {
-        display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
     }
 
     .admission-heading {
@@ -452,4 +599,42 @@ span {
         text-align: center;
     }
 
+    .register-button {
+        font-size: small;
+    }
+
+    .college-list,
+    .contact {
+        flex-direction: column;
+    }
+
+    .story-box {
+        width: 90%;
+    }
+
+    .girl img {
+        width: 90%;
+        margin: 0 auto;
+        display: block
+    }
+
+    .side-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .side-mobile,
+    input select {
+        width: 95%;
+    }
+
+    .form input,
+    select,
+    textarea {
+        width: 90%;
+    }
+
+    .form {
+        width: 90%;
+    }
 }
