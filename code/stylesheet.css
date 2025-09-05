@@ -7,57 +7,57 @@
 
 @font-face {
     font-family: 'Neo Sans Pro Regular';
-    src: url("/fonts/359095696-neosansproregular.OTF");
+    src: url("/code/fonts/359095696-neosansproregular.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Italic';
-    src: url("/fonts/359095678-neosansproitalic.OTF");
+    src: url("/code/fonts/359095678-neosansproitalic.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Light';
-    src: url("/fonts/359095683-neosansprolight.OTF");
+    src: url("/code/fonts/359095683-neosansprolight.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Light Italic';
-    src: url("/fonts/359095684-neosansprolightit.OTF");
+    src: url("/code/fonts/359095684-neosansprolightit.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Medium';
-    src: url("/fonts/359095689-neosanspromedium.OTF");
+    src: url("/code/fonts/359095689-neosanspromedium.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Medium Italic';
-    src: url("/fonts/359095685-neosanspromedit.OTF");
+    src: url("/code/fonts/359095685-neosanspromedit.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Bold';
-    src: url("/fonts/359095669-neosansprobold.OTF");
+    src: url("/code/fonts/359095669-neosansprobold.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Bold Italic';
-    src: url("/fonts/359095674-neosansproboldit.OTF");
+    src: url("/code/fonts/359095674-neosansproboldit.OTF");
 
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Black';
-    src: url("/fonts/359095660-neosansproblack.OTF");
+    src: url("/code/fonts/359095660-neosansproblack.OTF");
 }
 
 @font-face {
     font-family: 'Neo Sans Pro Black Italic';
-    src: url("/fonts/359095666-neosansproblackit.OTF");
+    src: url("/code/fonts/359095666-neosansproblackit.OTF");
 }
 
 .main-bg {
-    background-image: url("/img/doodle.png");
+    background-image: url("/code/img/doodle.png");
     background-repeat: repeat;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .father-son {
-    background-image: url("/img/0/top-banner.png");
+    background-image: url("/code/img/0/top-banner.png");
     background-color: #cccccc;
     min-height: 1000px;
     background-position: center;
@@ -118,7 +118,7 @@
     font-size: 20px;
     border-radius: 30px;
     font-weight: 900;
-    padding:15px 50px; 
+    padding: 15px 50px;
     position: absolute;
     left: 2%;
     top: 52%;
@@ -140,8 +140,7 @@
     margin: 0 auto;
     font-size: 50px;
     padding-bottom: 20px;
-        font-family: 'Neo Sans Pro ';
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 span {
@@ -166,7 +165,7 @@ span {
 }
 
 .four-cards {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
@@ -177,11 +176,11 @@ span {
 }
 
 .box {
-    background-color: #f7de61; 
-    padding:30px;
+    background-color: #f7de61;
+    padding: 30px;
     font-family: 'Neo Sans Pro regular';
-    margin:24px;
-    height:250px;
+    margin: 24px;
+    height: 250px;
 }
 
 .box p {
@@ -210,13 +209,13 @@ span {
     border-radius: 20px;
     height: 100px;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 100
 }
 
 .wrap1 {
     background-image: linear-gradient(white, #cca5f1);
     padding: 30px 0;
-    
+
 }
 
 .title1 {
@@ -225,8 +224,8 @@ span {
     margin: 0 auto 17px;
     padding-top: 30px;
     font-size: 40px;
-    font-family: 'Neo Sans Pro ';
     max-width: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text1 {
@@ -335,10 +334,10 @@ span {
     display: flex;
     justify-content: space-between;
     padding: 32px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     flex-wrap: wrap;
-    gap: 20px;
+    font-family: 'Neo Sans Pro regular';
 }
 
 
@@ -348,6 +347,7 @@ span {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+
 }
 
 .icon-box img {
@@ -412,7 +412,7 @@ span {
     padding: 55px;
     background-color: white;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -440,7 +440,7 @@ span {
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
-    margin: 0 auto;   
+    margin: 0 auto;
 
 }
 
@@ -449,12 +449,14 @@ span {
     border-radius: 5px;
     background-color: white;
     box-shadow: 1px 1px 2px 2px grey;
+    /* check later */
     padding: 20px;
     align-self: center;
     width: 50%;
 }
-.girl img{
-    width:90%;
+
+.girl img {
+    width: 90%;
 }
 
 
@@ -501,9 +503,7 @@ option {
     z-index: -1;
 }
 
-.pc {
-    display: none;
-}
+
 
 @media (max-width:776px) {
     .father-son {
